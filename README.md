@@ -1,5 +1,5 @@
 # Carsales
-A very small project written in .Net Core, Web Api and Angular 10, which covers the followings:
+A very small project written in .Net Core and Angular 10, which covers the followings:
 
 -NLayer 
 
@@ -15,7 +15,7 @@ A very small project written in .Net Core, Web Api and Angular 10, which covers 
 
 -Dependency Injection
 
--Integrating to Swagger for api documentation
+-Integrating to Swagger for Web Api documentation
 
 Running instruction:
 
