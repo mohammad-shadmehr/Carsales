@@ -1,0 +1,33 @@
+<h1 mat-dialog-title>{{data.name}}</h1>
+<div mat-dialog-content>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Make *</mat-label>
+    <input matInput [(ngModel)]="data.make">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Model *</mat-label>
+    <input matInput [(ngModel)]="data.model">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Engine (cc) *</mat-label>
+    <input matInput [(ngModel)]="data.engine">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Body *</mat-label>
+    <input matInput [(ngModel)]="data.bodyType">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Wheels *</mat-label>
+    <input matInput [(ngModel)]="data.numberOfWheels" type="number">
+    <mat-hint>number of wheels</mat-hint>
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Doors *</mat-label>
+    <input matInput [(ngModel)]="data.numberOfDoors" type="number">
+    <mat-hint>number of doors</mat-hint>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-raised-button (click)="save()" cdkFocusInitial color="primary" [disabled]="!data.make || !data.model || !data.engine || !data.bodyType || !data.numberOfWheels || !data.numberOfDoors">Save</button>
+</div>

@@ -1,0 +1,9 @@
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\bin\Debug\netcoreapp3.1\WebLibrary.Core.deps.json
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\bin\Debug\netcoreapp3.1\WebLibrary.Core.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\bin\Debug\netcoreapp3.1\WebLibrary.Core.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.csprojAssemblyReference.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.AssemblyInfoInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.AssemblyInfo.cs
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.csproj.CoreCompileInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Core\obj\Debug\netcoreapp3.1\WebLibrary.Core.pdb

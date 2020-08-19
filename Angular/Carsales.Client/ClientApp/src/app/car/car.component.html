@@ -1,0 +1,76 @@
+<p *ngIf="!cars"><em>Loading...</em></p>
+<div>
+  <button mat-fab color="primary" (click)="showDialog()">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>
+<mat-table [dataSource]="cars" class="mat-elevation-z8">
+  <!-- Id Column -->
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.id}} </mat-cell>
+  </ng-container>
+
+  <!-- Make Column -->
+  <ng-container matColumnDef="make">
+    <mat-header-cell *matHeaderCellDef> Make </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.make}} </mat-cell>
+  </ng-container>
+
+  <!-- Model Column -->
+  <ng-container matColumnDef="model">
+    <mat-header-cell *matHeaderCellDef> Model </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.model}} </mat-cell>
+  </ng-container>
+
+  <!-- Body Column -->
+  <ng-container matColumnDef="bodyType">
+    <mat-header-cell *matHeaderCellDef> Body </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.bodyType}} </mat-cell>
+  </ng-container>
+
+  <!-- Engine Column -->
+  <ng-container matColumnDef="engine">
+    <mat-header-cell *matHeaderCellDef> Engine </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.engine}} </mat-cell>
+  </ng-container>
+
+  <!-- Wheels Column -->
+  <ng-container matColumnDef="numberOfWheels">
+    <mat-header-cell *matHeaderCellDef> Wheels </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.numberOfWheels }} </mat-cell>
+  </ng-container>
+
+  <!-- Doors Column -->
+  <ng-container matColumnDef="numberOfDoors">
+    <mat-header-cell *matHeaderCellDef> Doors </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.numberOfDoors }} </mat-cell>
+  </ng-container>
+
+  <ng-container>
+    <mat-header-cell *matHeaderCellDef> </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-mini-fab color="accent">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-mini-fab color="danger">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="actions">
+    <mat-header-cell *matHeaderCellDef> </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-mini-fab color="accent" (click)="showDialog(element)">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-mini-fab color="warn" (click)="delete(element)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>

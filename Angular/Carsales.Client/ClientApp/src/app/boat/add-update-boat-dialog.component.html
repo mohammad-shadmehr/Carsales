@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>{{data.name}}</h1>
+<div mat-dialog-content>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Make *</mat-label>
+    <input matInput [(ngModel)]="data.make">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Model *</mat-label>
+    <input matInput [(ngModel)]="data.model">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Category *</mat-label>
+    <input matInput [(ngModel)]="data.category">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Segment *</mat-label>
+    <input matInput [(ngModel)]="data.segment">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-raised-button (click)="save()" cdkFocusInitial color="primary" [disabled]="!data.make || !data.model || !data.category || !data.segment">Save</button>
+</div>

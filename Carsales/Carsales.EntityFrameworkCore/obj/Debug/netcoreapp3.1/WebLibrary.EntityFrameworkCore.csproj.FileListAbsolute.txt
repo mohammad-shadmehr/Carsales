@@ -1,0 +1,12 @@
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\bin\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.deps.json
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\bin\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\bin\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\bin\Debug\netcoreapp3.1\WebLibrary.Core.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\bin\Debug\netcoreapp3.1\WebLibrary.Core.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.AssemblyInfo.cs
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.csproj.CopyComplete
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.EntityFrameworkCore\obj\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.pdb

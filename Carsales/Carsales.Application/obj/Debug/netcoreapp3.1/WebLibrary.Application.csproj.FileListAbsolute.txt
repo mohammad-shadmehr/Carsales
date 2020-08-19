@@ -1,0 +1,14 @@
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.Application.deps.json
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.Application.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.Application.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.Core.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.Core.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\bin\Debug\netcoreapp3.1\WebLibrary.EntityFrameworkCore.pdb
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.csprojAssemblyReference.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.AssemblyInfoInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.AssemblyInfo.cs
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.csproj.CoreCompileInputs.cache
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.csproj.CopyComplete
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.dll
+C:\Projects\WebLibrary\WebLibrary\WebLibrary.Application\obj\Debug\netcoreapp3.1\WebLibrary.Application.pdb
